@@ -1,0 +1,159 @@
+1. Angular is a _____ based approach to building web applications.
+
+2. When you create a component you are creating an entity that contains:
+    a. HTML & JS
+
+3. Each component knows how to render itself & knows how to deal with user interactions with that component. True or False
+
+4. Every component can be used by assigning it a _____. 
+
+5. Angular pulls the component into the view by the _____. (4 & 5 are the same answer)
+
+6. Components can have subcomponents. True or False
+
+7. Every Angular app has a _____ Component that is going to hold the Main Components that need to be displayed in the page & then those Main Components can have _____ Componenets.
+
+8. What 3 installations do you need to get started?
+    a. node.js / an editor / angular CLI
+
+9. The runtime environment in which you are going to be running all of your development tools is called _____. 
+
+10. The _____ allows you to start up a simple Angular project without having to assemble all the files & start everything yourself. (by installing this globally you can run it in any directory that you're in)
+
+11. What does CLI in Angular CLI stand for?
+
+12. _____ is the command to run the Angular CLI.
+
+13. What is the commmand to tell the Angular CLI to create a new project?
+
+14. If you want your new project to be created with a routes module, what is the command?
+
+15. What are the main things created by default when you create a new project with the Angular CLI? (just think of several, doesn't need to be exhaustive)
+
+16. Which folder contains all of the source code?
+
+17. Which folder contains all of the downloaded dependencies?
+
+18. Which file lists all of the dependencies/libraries that our project needs?
+
+19. When you run $ng new projectname, the Angular CLI gives you a placeholder that is also the ______ Component.
+
+20. The Root Component starts from what file?
+
+21. What is the purpose of the .component.spec.ts file?
+
+22. What is the command for creating a component? (full & shorthand)
+
+23. Where do you place the components selector tag in order to have it rendered? (this might be a little tricky, review the wording on this)
+
+24. Which component lives at the top of the component tree?
+
+25. Every Angular component is mainly a _____ class.
+
+26. What are the two parts every component.ts file have?
+
+27. True or False.  The "export class nameOfComponent implements OnInit..." defines the class.
+
+28. If you want to add functionality to your component, it goes inside the _____ definition.
+
+29. The ____ is essentially tagging your class as an Angular component.
+
+30. Any view in a JavaScript client application  consists of what 2 things?
+    a. static portion (html)
+    b. dynamic portion (JS)
+
+31. The dynamic portion is calculated on which side?
+    a. client side
+
+32. You can reference a member variable with _____ (hint: 3 words) to show the value in the view. (further info: it (the answer) tells Angular to retrieve the value from the member variable of the component definition)
+
+33. True or False.  Whenever a component's selector is used, Angular creates a new instance of the component's class.
+
+33. _____ in Angular refers to binding the data in the component instance to the HTML template.  Any changes to the data automatically get updated in the view.
+
+34. _____ is a JavaScript API that lets you run a function at regular time intervals.
+
+35. Double curly braces trigger Angular to do _____.
+
+36. True or False.  You can only declare member variables directly in the class. 
+
+37. True or False. Assigning values can be done only inside a method, like a constructor, for example.
+
+38. ngFor and ngIf are examples of what?
+
+39. Give a brief description of what ngFor does?
+
+40. Give a brief description of what ngIf does?
+
+41. The way to pass in data to a component is by using an ______. 
+
+42. To allow user input, you use what annotation? (this tells Angular that your member variable allows user input when they are using your component)
+
+43. Every object has a _____ that is used to create that object.  You can write code to execute when that object is created.
+
+44. After creation of the object, Angular populates the _____.
+
+45. When the component is fully initialized, Angular is going to call what method? (hint: this method is called regardless if it has code or not)
+
+46. True or False.  The component.css file only applies to the component.html file of its corresponding component.
+
+47. If you want certain css styles to apply to all of your components, you place those css property values in which file?
+
+48. Why do we include parenthesis around (click) events in Angular?
+
+49. [()] this syntax, known as "banana-in-a-box", does what?
+
+50. What is two way data binding?
+
+51. In order to use ngModel, what module needs to be imported?
+
+52. What do square brackets alone, [], allow you to do in the html template?
+
+53. What do parenthesis alone, (), allow you to do in the html template?
+
+54. What is a module? 
+
+55. How do you create a module?
+
+56. When you _____ a module, you get to use all the components in that module.
+
+57. When a component is declared in the _____ section of @NgModule, it becomes part of the class module.
+
+58. What are the two types of Angular imports?
+
+59. True or False.  Services are also classes like components are & it contains methods that contain functionality that it can reuse across multiple components.
+
+60. The _____ annotation tells Angular that the class is a service.
+
+61. To declare a service in a module, you need to declare it in the _____ section of the @NgModule in your module.ts.
+
+62. How do you tell Angular that you need an instance of a particular service (i.e. you are declaring that your given class is dependent on a service)?
+
+63. What does the TypeScript shortcut "private" create?
+
+64. True or False.  Angular creates a common shared space for services.  Any component that makes a dependency injection on a particular service is going to get that service.
+
+65. True or False. Angular comes with several built-in services right out of the box - one of these is the HttpClient service.
+
+66. http.get() is an _____ operation & what you get back from the call is an _____ object, which is called an ______ in Angular.  (hint: the first two blanks are the same answer)
+
+67. To ge the observable to pass the API response to us when it's done making the call, you pass the response to what method?
+
+68. What is the command to create a production build of your project when you are ready to deploy it?
+
+69. When you need to setup a route, you create an Angular _____ that renders the view for that route.
+
+70. For each route, you configure the route URL that triggers the route, and you map it to the _____ component that's responsible for handling the view in that route.  Then you provide this configuration to the Angular routing framework (app-routing.module.ts).
+
+71. True or False. Routing is one of the sub-libraries of Angular.
+
+72. In your app-routing.module.ts file, you have to import ALL of your _____ at the top in your TypeScript section in order to map your routes in the route array.
+
+73. If a component has children component(s), you must also add what selector to the parent component html file. 
+
+74. Use the Angular directive _____ to specify route links, not href.  href will do a full page reload.
+
+
+
+
+
