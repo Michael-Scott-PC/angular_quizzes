@@ -1,3 +1,7 @@
+// This quiz is based off notes I took for Java Brains videos, which can be found here:
+// https://javabrains.io/courses/angular_basics/
+// Currently, he is a Senior Engineer for Linkedin. I highly recommend all of his Angular 6, JavaScript, and TypeScript courses.
+
 1. Angular is a _____ based approach to building web applications.
 
 2. When you create a component you are creating an entity that contains:

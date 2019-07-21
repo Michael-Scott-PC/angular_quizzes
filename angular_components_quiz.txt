@@ -1,0 +1,66 @@
+// This quiz is based off notes I took for Java Brains videos, which can be found here:
+// https://javabrains.io/courses/angular_componentsindepth/
+// Currently, he is a Senior Engineer for Linkedin. I highly recommend all of his Angular 6, JavaScript, and TypeScript courses.
+
+1. Bootstrap provides classes that come with predefined styles that you can directly use in your app.  Other style elements that come out of the box include:
+    a. panels
+    b. lists
+    c. alerts
+    d. all of the above
+
+2. _____ is a TypeScript construct that lets you assign the inputs that are passed into the constructor as member variables. 
+
+3. Using _____ syntax binds the value being passed in to the value of the component member variable.  The binding is applicable even when the value of the component property changes.
+
+4. True or False.  When creating your component, you typically do NOT want to have a whole lot of parameters(attributes)
+
+5. ngOnInit() is a _____ method.
+
+6. True or False.  Generally, you want to keep your constructor method pretty lite weight - you want the constructor to just do dependency injection (i.e. inject services/providers).
+
+7. What are pipes used for?
+
+8. What is an EventEmitter and what does it do?
+
+9. True or False.  Every Angular component can accept data as an input (i.e. @Input) & every Angular component can also emit an output & the output is always an event.
+
+10. _____ annotation tells Angular this is something that emits an event.
+
+11. Parenthesis are _____ & square brackets are _____.
+    a. events, member variable binding
+
+12. True or False.  View encapsulation comes by default in Angular.
+
+13. What does the host {} selector do?
+
+14. _____ annotation takes in an argument, which is a template reference variable.
+
+15. _____ component is given everything it needs, it does not know much, it has to be fed all the information.
+
+16. _____ component looks after itself, it gets all the data it needs & then passes the right data to the child; it does all the work.
+
+17. _____ component = Controller component
+
+18. _____ component = Presentational component
+
+19. The app component is technically a _____ component.
+
+20.  You intentionally make a _____ component if you want it reusable in multiple places.
+
+21. _____ is an Angular directive that lets you add constructs based on conditions. (e.g. [ _____ ] = "{'fav': post.isFav}" ) (hint: it's a very handy way to have dynamic styling on your components)
+
+22. What is the command to generate custom directives?
+
+23. True or False.  Directives get declared in the @NgModule declarations array, just like components. 
+
+24. What is the name of the annotation given to a generated directive?
+
+25. _____ is a directive that you add to your methods to tell Angular that you want it to listen to the host element & then call these methods based on different events.
+
+26. @HostListener() takes an argument which is the _____ itself that you want Angular to listen to & then call the method when the _____ happens. (hint: same answer for both blanks)
+
+27. True or False.  A directive can take in input values.
+
+28. What is "content projection"?
+
+29. What is a "shell component" and how does it relate to "content projection"? What is the command to generate a shell component?
